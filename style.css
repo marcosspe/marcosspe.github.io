@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+.uno {
+	background: linear-gradient(rgba(10, 10, 10, 0.189),rgba(0, 0, 0, 0.473)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px), url(https://thumbs.gfycat.com/IllegalAdorableArcticseal-size_restricted.gif);
+	/* background: linear-gradient(rgba(10, 10, 10, 0.189),rgba(0, 0, 0, 0.473)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px); */
+	background-position: center;
+	background-size: cover;
+	height: 95vh;
+}
+
+.word {
+  margin: auto;
+  color: white;
+  font: 700 normal 2vw "Montserrat", sans-serif;
+  text-shadow: 1px 2px #3a3a3a, 2px 4px #3a3a3a, 3px 6px #3a3a3a, 4px 8px #3a3a3a;
+}
+
+.name{
+	text-transform: uppercase;
+	font: 700 normal 6vw/1.5 "Montserrat", sans-serif;
+  text-shadow: 1px 2px #3a3a3a, 2px 4px #3a3a3a, 3px 6px #3a3a3a, 4px 8px #3a3a3a, 5px 10px #3a3a3a, 6px 12px #3a3a3a, 7px 14px #3a3a3a;
+}
+
+.flecha{
+	margin-top: -5vw;
+}
+
+@media all and (max-width: 600px){
+	.name{
+		font: 700 normal 10vw/1.5 "Montserrat", sans-serif;
+	}
+
+	.word{
+		font: 700 normal 5vw "Montserrat", sans-serif;
+	}
+}
+
+@media all and (max-width: 915px){
+	.flecha{
+		margin-top: -20vw;
+	}
+}
+
+/* navbar{
+	width: 5px;
+} */
+
+a {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+a.aboutme {
+  width: 10rem;
+  height: auto;
+}
+a.aboutme .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 2rem;
+  height: 2rem;
+  background: white;
+  border-radius: 1.625rem;
+}
+a.aboutme .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0.250rem;
+  margin: auto;
+  background: #282936;
+}
+a.aboutme .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.150rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+a.aboutme .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.30rem;
+  /* right: 0.0625rem; */
+  width: 0.625rem;
+  height: 0.625rem;
+  border-bottom: 0.125rem solid #282936;
+  border-right: 0.125rem solid #282936;
+  transform: rotate(45deg);
+}
+a.aboutme .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.18rem 0;
+  margin: 0 0 0 1.85rem;
+  color: white;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+a:hover .circle {
+  width: 100%;
+}
+a:hover .button-text {
+  color: #282936;
+}
+
+.dos{
+margin-top: 10rem;
+}
+
+.avatar{
+	width: 10rem;
+}
+
+.am{
+	font: 700 normal 2vw "Montserrat", sans-serif;
+	text-transform: uppercase;
+}
