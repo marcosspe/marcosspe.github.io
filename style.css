@@ -126,14 +126,29 @@ a:hover .button-text {
 }
 
 .dos{
-margin-top: 10rem;
+margin-top: 8rem;
 }
 
 .avatar{
 	width: 10rem;
 }
 
-.am{
+.subt{
 	font: 700 normal 2vw "Montserrat", sans-serif;
 	text-transform: uppercase;
+}
+@media all and (max-width: 915px){
+  .subt{
+    font-size: 1.4rem;
+  } 
+}
+
+.icon{
+width: 3rem;
+}
+
+@media all and (max-width: 915px){
+  .icon{
+    width: 2rem;
+    }	
 }
