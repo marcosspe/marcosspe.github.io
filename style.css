@@ -216,7 +216,7 @@ a:hover {
 .section-head h4 {
   position: relative;
   padding: 0;
-  color: #f91942;
+  color: #2f2f2f;
   line-height: 1;
   letter-spacing: 0.3px;
   font-size: 34px;
@@ -230,7 +230,7 @@ a:hover {
   content: '';
   width: 60px;
   height: 3px;
-  background: #f91942;
+  background: #2f2f2f;
   position: absolute;
   left: 0px;
   bottom: -10px;
@@ -467,19 +467,19 @@ p.awesome_line {
 
 
 
-/* .person {
+.person {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 280px;
-} */
+  width: 410px;
+}
 .cr {
   border-radius: 50%;
   height: 312px;
   -webkit-tap-highlight-color: transparent;
   transform: scale(0.48);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  width: 400px;
+  width: 380px;
 }
 /* .cr:after {
   background-color: #f2f2f2;
@@ -522,7 +522,7 @@ p.awesome_line {
   transform: translateY(0) scale(1.2);
 }
 .img1 {
-  left: 22px;
+  left: 40px;
   top: 164px;
-  width: 340px;
+  width: 320px;
 }
