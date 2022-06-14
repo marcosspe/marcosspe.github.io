@@ -467,12 +467,12 @@ p.awesome_line {
 
 
 
-/* .person {
+.person {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 280px;
-} */
+  width: 410px;
+}
 .cr {
   border-radius: 50%;
   height: 312px;
@@ -522,7 +522,7 @@ p.awesome_line {
   transform: translateY(0) scale(1.2);
 }
 .img1 {
-  left: 22px;
+  left: 35px;
   top: 164px;
   width: 340px;
 }
